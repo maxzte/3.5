@@ -12,7 +12,7 @@ namespace UnitTest1
 	public:
 		TEST_METHOD(calculate_get1and2_0returned)
 		{
-			int x = -2, n = 1, a = -1, b = 1, h = 1;
+			int x = -1, n = 1, a = -1, b = 1, h = 1;
 			int expected = 0;
 			int actual = calculate(n, x, a, b, h);
 			Assert::AreEqual(expected, actual);
